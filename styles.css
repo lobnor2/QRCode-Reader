@@ -9,11 +9,34 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    border: 10px solid black;
 }
 img {
-    width: 300px;
+    width: 150px;
 }
 i {
-    font-size: 150px;
-    color: blue;
+    font-size: 30px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.541);
+}
+button {
+    border: 1px solid black;
+    padding: 10px 30px;
+    background-color: white;
+}
+.container {
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+
+}
+form , .details {
+    border: 1px solid green;
+    margin: 5px;
+    padding: 5px;
 }
