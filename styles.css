@@ -20,9 +20,8 @@ img {
     width: 150px;
 }
 i {
-    font-size: 30px;
-    cursor: pointer;
-    color: rgba(0, 0, 0, 0.541);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
 }
 button {
     border: 1px solid black;
@@ -30,7 +29,7 @@ button {
     background-color: white;
 }
 .container {
-    border: 1px solid black;
+    border: 5px solid black;
     padding: 20px;
     display: flex;
 
@@ -39,4 +38,39 @@ form , .details {
     border: 1px solid green;
     margin: 5px;
     padding: 5px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap:5px;
+    cursor: pointer;
+    /* height: 20vh; */
+
+    /* position: relative; */
+}
+
+.centerimage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+textarea {
+    height: 100%;
+    margin-bottom: 5px;
+    background-color: white;
+    color: black;
+
+}
+button {
+    cursor: pointer;
+}
+form img {
+    /* display: none; */
 }
